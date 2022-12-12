@@ -1,4 +1,4 @@
-name: (UPDATE) Model Version
+﻿name: (UPDATE) Model Version
 
 on:
    workflow_dispatch:
@@ -9,7 +9,8 @@ on:
         default: ''
         type: choice
         options:
-        - "*"
+         - "field-identifier-0-does-not-exist-in-table-dirpartymap-71235173"
+
       versionNumber:
         description: Updated Version Number.
         required: true
